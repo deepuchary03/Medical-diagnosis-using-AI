@@ -8,9 +8,9 @@ st.set_page_config(page_title="Medical diagnosis using AI", page_icon="⚕️")
 # Hiding Streamlit add-ons
 hide_st_style = """
             <style>
-            #MainMenu {visibility: hidden;}
+            #MainMenu {visibility: visible;}
             footer {visibility: visible;}
-            header {visibility: hidden;}
+            header {visibility: visible;}
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
