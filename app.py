@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 from streamlit_option_menu import option_menu
-
+os.system('pip install --upgrade pip')
 # Change Name & Logo
 st.set_page_config(page_title="Medical diagnosis using AI", page_icon="⚕️")
 
