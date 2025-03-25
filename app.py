@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 # Change Name & Logo
 st.set_page_config(page_title="Medical diagnosis using AI", page_icon="⚕️")
 
-# Hiding Streamlit add-ons
+# Hiding Streamlit 
 hide_st_style = """
             <style>
             #MainMenu {visibility: visible;}
